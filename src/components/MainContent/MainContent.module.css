@@ -1,0 +1,28 @@
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1200px;
+    max-width: 100%;
+    gap: 24px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1199px) {
+    .conteudo {
+        width: 894px;
+    }
+}
+
+@media screen and (max-width: 893px) {
+    .conteudo {
+        width: 588px;
+    }
+}
+
+@media screen and (max-width: 588px) {
+    .conteudo {
+        justify-content: center;
+    }
+}
